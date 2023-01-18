@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+ .title h1{
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+.title{
+    width: 30%;
+    margin: 10px auto 0 auto;
+    padding-top: 150px;
+    margin-top: 2;
+
+}
+.introduction{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.brand{
+    font-size: 30px;
+    font-weight: 80px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.brand a{
+    color: white;
+}
+
+.navlinks a{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+.navlinks{
+    margin-top: 50px;
+}
+.login{
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.member{
+    margin-top: 50px;
+    padding-right: 100px;
+}
+.member a{
+    padding: 10px;
+    color: white;
+    font-size: 25px;  
+    background-color: rgb(76, 76, 228);
+}
+.login a{
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+
+}
+
+.intro{
+    width: 30%;
+    margin: 0 auto 0 auto;
+    clear: left;
+    line-height: 2;
+   
+}
+.button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+  
+
+}
+.button1{
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(76, 76, 228);
+    border: none;
+    border-radius: 20px;
+    color: white;
+
+    
+}
+ 
+.button2{
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;   
+   
+}
+  
+
+.first-container{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hero.png);
+  /* background-image: url("/images/background.png"); */
+  background-size: cover;
+  height: 600px;
+ 
+
+}
+.second-container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250,250,250,255);
+}
+.third-container{
+    width: 100%;
+    height: 100%;
+   background-color: rgba(250,250,250,255);
+}
+.fourth-container{
+    background-color: rgba(37,43,66,255);
+    height: 100vh;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+}
+.fifth-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250,250,250,255);
+}
+.sixth-container{
+    background-color: rgba(250,250,250,255);
+    height: 30%;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+}
+.seventh-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    text-align: left;
+}
+.booking-section{
+    display: flex;
+    margin-top: -230px;
+  
+}
+.content{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 150px;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2fr);
+    grid-template-areas: 
+    "one two three"
+    "four five six";
+
+}
+.one{
+    grid-area: one;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    text-align: left;
+    padding-left: 20px;
+}
+.one ion-icon{
+    font-size: 50px;
+    color: rgb(118, 118, 223)
+}
+.two ion-icon{
+    font-size: 50px;
+    color: rgb(118, 118, 223)
+}
+.three ion-icon{
+    font-size: 50px;
+    color: white;
+}
+
+.two{
+    grid-area: two;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+.three{
+    grid-area: three;
+    background-color: rgb(76, 76, 228);
+    width: 300px;
+    height: 150px;
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+    
+   
+}
+.four{
+    grid-area: four;
+}
+.four ion-icon{
+    font-size: 50px;
+    color: rgb(118, 118, 223)
+    
+}
+
+.five{
+    grid-area: five;
+    text-align: center;
+}
+.five ion-icon {
+    font-size: 50px;
+    color: rgb(118, 118, 223)
+}
+.six{
+    grid-area: six;
+    text-align: left;
+}
+.six ion-icon {
+    font-size: 50px;
+    color: rgb(118, 118, 223)
+}
+.intro-third-container{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+
+}
+.vectors img{
+    height: 80px;
+    width: 80px;
+}
+.vectors{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 300px;
+
+}
+.users{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 30px;
+    text-align: center;
+}
+.users img{
+    padding: 20px;
+    height: 150x;
+    width: 150px;
+}
+.user1{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+}
+.user2{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+}
+.user3{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+}
+.industry{
+    padding-bottom: 20px;
+    font-size: 40px;
+   font-weight: 100;
+}
+
+.newsletter{
+    background-color: aqua;
+    margin-top: 300px;
+}
+.pricing{
+    text-align: center;
+    padding-top: 20px;
+}
+.pricing-intro{
+   padding:10px;
+    width: 30%;
+    margin: auto;
+}
+.rectangles{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    line-height: 2;
+    text-align: left;
+
+}
+.rectangles h5{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.rectangles button{
+    text-align: center;
+}
+.rectangles ion-icon{
+    padding: 2px;
+    color: rgba(45,192,113,255);
+}
+
+
+.free-paragraph{
+    text-align: center;
+    font-size: 20px;
+}
+.standard{
+    height: 430px;
+    width: 250px;
+    background-color:  rgba(37,43,66,255);
+    margin-top: -30px;
+    padding: 15px;
+}
+.standard .btn{
+    text-align: center;
+}
+.premium{
+    height: 400px;
+    width: 250px;
+    background-color: rgba(255,255,255,255);
+    padding: 15px;
+}
+.premium .btn{
+    text-align: center;
+}
+
+.free{
+    height: 400px;
+    width: 250px;
+    background-color: rgba(255,255,255,255);
+    padding: 15px;
+}
+.free .btn{
+    text-align: center;
+}
+.standard h5{
+    color: white;
+}
+.standard-intro{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.standard p{
+    color: white;
+}
+
+.premium-intro{
+    padding: 10px;
+    text-align: center;
+}
+.branch-image img{
+    height: 200px;
+    width: 400px;
+    margin-left: 150px;
+    padding: 30px;
+    margin-top: 100px;
+}
+.branches{
+    width: 35%;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: left;
+}
+.branches h1{
+    text-align: left;
+    color: rgba(250,250,251,255);
+}
+.branch-intro{
+    padding-top: 20px;
+    color: white;
+}
+
+.image img{
+   height: 400px;
+   width: 100%;
+}
+.appointment{
+    width: 100%;
+    background-color: rgba(255,255,255,255);
+    padding: 10px;
+}
+.appointment h1{
+    text-align: center;
+    padding: 10px;
+}
+
+input[type=text], select{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: none;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+   background-color: rgba(249,249,249,255);
+}
+input[type=email] {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: none;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(249,249,249,255);
+}
+.book-appointment-button{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: none;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(35,166,240,255);
+    color: white;
+}
+.contact-button{
+
+}
+.seventh-container li{
+   list-style: none;
+}
