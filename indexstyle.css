@@ -467,7 +467,17 @@ input[type=email] {
     background-color: rgba(35,166,240,255);
     color: white;
 }
-.contact-button{
+.contact-button button{
+
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: none;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(35,166,240,255);
+    color: white;
 
 }
 .seventh-container li{
@@ -479,3 +489,4 @@ input[type=email] {
  font-size: 20px;
 
 }
+
