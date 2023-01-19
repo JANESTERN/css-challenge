@@ -489,4 +489,74 @@ input[type=email] {
  font-size: 20px;
 
 }
+.standard .standard-button{
 
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: none;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(35,166,240,255);
+    color: white;
+
+}
+
+.premium .premium-buttton{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: none;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(35,166,240,255);
+    color: white;
+}
+
+.free .free-button{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: none;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(35,166,240,255);
+    color: white;
+}
+
+
+
+
+.Newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    border: none;
+    margin: auto;
+    width: 70%;
+    height: 5%;
+    padding: 2%;
+    background: linear-gradient(to right, rgb(56, 30, 76), rgb(181, 96, 151));
+}
+
+.Newsletter-words1 {
+    width: 60%;
+    height: 50%;
+    gap: 0;
+    outline: none;
+    margin-right: 30px;
+}
+
+
+.Newsletter-words2{
+    gap: none;
+    outline: none;
+    margin-left: -39px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    height: 60%;
+}
